@@ -6,60 +6,94 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="index.js" />
+
     <title>Pilotvideo</title>
   </head>
   <body>
     <header>
-      <nav>
-        <ul>
-          Logo
-        </ul>
-      </nav>
+      <h1>Global Darkness</h1>
     </header>
-    <h1>Global Darkness</h1>
-    <div class="splash">
-      <img src="img/IMG_2226.JPG" alt="splashbillede" />
-    </div>
-
-    <article>
-      <div class="flex_1-1-1">
-        <div class="col">
-          <h2>Koncept</h2>
-          <p>
-            Vores koncept er at skabe et virkelighedsnært og indsigtsfuldt
-            billede af genren (progressivt dødsmetal), og gå mere i dybden med
-            hvordan livet er som musikere. Hvad der er med til at drive en ung
-            frisk guitarist til at realisere sin drøm. Vi vil med enkle og lette
-            indstillinger, fortælle om livet som dødsmetal bassist.
-          </p>
-          <img src="img/IMG_2229.JPG" alt="midlertidigt" />
-        </div>
-        <div class="col">
-          <h2>Præmis</h2>
-          <p>
-            At komme ind under huden på en person, som brænder for at lave musik
-            og finde ud af hvad der driver dem.
-          </p>
-          <img src="img/IMG_2227.JPG" alt="midlertidigt" />
-        </div>
-        <div class="col">
-          <h2>Logline</h2>
-          <p>
-            En dygtig bassist fortæller om det sjove og spændende ved at spille
-            progressivt dødsmetal.
-          </p>
-          <img src="img/IMG_2231.JPG" alt="midlertidigt" />
-        </div>
+    <main>
+      <div class="container">
+        <img src="img/splash.webp" alt="billede af bas" class="imgsplash" />
+        <p class="splash">Progressivt Dødsmetal</p>
       </div>
-      <h1>Video kommer herunder</h1>
-      <div class="video">
-        <video src="..."></video>
-        \Youtube
-        <iframe src="" frameborder="0"></iframe>
-      </div>
-    </article>
 
-    <script src="index.js"></script>
+      <article>
+        <div class="white">
+          <div class="grid_1-1-1">
+            <div class="col">
+              <h2>Koncept</h2>
+              <p>
+                Vores koncept er at skabe et virkelighedsnært og indsigtsfuldt
+                billede af genren (progressivt dødsmetal), og gå mere i dybden
+                med hvordan livet er som musikere. Hvad der er med til at drive
+                en ung frisk guitarist til at realisere sin drøm. Vi vil med
+                enkle og lette indstillinger, fortælle om livet som dødsmetal
+                bassist.
+              </p>
+              <img src="webp/IMG_2226.webp" alt="Billede af Bjørn og Lukas" />
+              <figcaption>
+                Bjørn Heesche Petersen, fra Global Darkness, sammen med Lukas
+                fra MMD.
+              </figcaption>
+            </div>
+            <div class="col">
+              <h2>Præmis</h2>
+              <p>
+                At komme ind under huden på en person, som brænder for at lave
+                musik og finde ud af hvad der driver dem.
+              </p>
+              <img src="webp/IMG_2228.webp" alt="Højtaler og guitar" />
+              <figcaption>
+                Billede af højtaler, fra øvelokalet i Ølstykke.
+              </figcaption>
+            </div>
+            <div class="col">
+              <h2>Logline</h2>
+              <p>
+                En dygtig bassist fortæller om det sjove og spændende ved at
+                spille progressivt dødsmetal.
+              </p>
+              <img src="webp/IMG_2231.webp" alt="billede af trommer" />
+              <figcaption>
+                Billede af trommer fra øvelokalet i Ølstykke.
+              </figcaption>
+            </div>
+            <div class="col">
+              <h2>Portræt</h2>
+              <img
+                src="webp/bjorn.webp"
+                alt="Portrætbillede af Bjørn, bassist i Global Darkness"
+              />
+              <figcaption>
+                Bjørn Heesche Petersen, fra Global Darkness
+              </figcaption>
+            </div>
+          </div>
+        </div>
+        <h1>Interview</h1>
+        <p class="info_tekst">
+          Bjørn Heesche Petersen fra Global Darkness, fortæller om hans passion
+          for progressivt dødsmetal og det at spille bassist i et dødsmetal
+          bandt
+        </p>
+
+        <!-- <video controls src="pilotvideo/pilotvideo.mp4"></video> -->
+        <div class="video">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/Ix0Jy4UskEE"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </article>
+      <script src="index.js"></script>
+    </main>
+    <footer>© Lavet af Laura Skovsted</footer>
   </body>
-  <footer>Laura Skovsted</footer>
 </html>
