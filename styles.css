@@ -29,6 +29,10 @@ figcaption {
   color: white;
 }
 
+.wire {
+  list-style: none;
+}
+
 /* fonts, tekster og footer */
 h1 {
   padding: 10px;
@@ -146,4 +150,21 @@ img,
 .info_tekst {
   margin: 20px;
   padding: 0px 50px 0px 50px;
+}
+
+a:link {
+  text-decoration: none;
+  font-family: NewRocker-Regular;
+  src: url(New_Rocker/NewRocker-Regular.ttf);
+}
+
+.indholdsliste a:hover {
+  color: red;
+}
+
+a {
+  color: white;
+  padding: 5px;
+  margin: 2.5px;
+  border: solid 1px white;
 }
